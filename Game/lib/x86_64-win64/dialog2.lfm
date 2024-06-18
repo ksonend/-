@@ -1,0 +1,72 @@
+object Form12: TForm12
+  Left = 565
+  Height = 430
+  Top = 310
+  Width = 747
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = '2 диалог уведомления'
+  ClientHeight = 430
+  ClientWidth = 747
+  DesignTimePPI = 120
+  LCLVersion = '3.2.0.0'
+  object Image20: TImage
+    Left = 0
+    Height = 440
+    Top = 0
+    Width = 752
+    Enabled = False
+    ImageIndex = 4
+    ImageWidth = 1920
+    Images = Form1.fon
+  end
+  object Image1: TImage
+    Left = 120
+    Height = 272
+    Top = 32
+    Width = 537
+    ImageIndex = 6
+    Images = Form3.Sad
+  end
+  object Image3: TImage
+    Left = 288
+    Height = 65
+    Top = 328
+    Width = 168
+    ImageIndex = 21
+    ImageWidth = 750
+    Images = Form1.Base
+  end
+  object Label2: TLabel
+    Left = 320
+    Height = 32
+    Top = 336
+    Width = 112
+    AutoSize = False
+    Caption = 'Хорошо'
+    Color = clNone
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clTeal
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label2Click
+  end
+  object Label3: TLabel
+    Left = 104
+    Height = 210
+    Top = 56
+    Width = 514
+    Caption = '                         Поздравлем!'#13#10'                   Вы достигли 1 уровня!'#13#10'     Теперь вам доступны два новых места '#13#10'                          для посадки '#13#10'          и открыты два новых семечка '#13#10'                   в разделе "Овощи".'
+    Color = clNone
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clTeal
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentColor = False
+    ParentFont = False
+  end
+end

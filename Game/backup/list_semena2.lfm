@@ -1,0 +1,227 @@
+object Form6: TForm6
+  Left = 1086
+  Height = 240
+  Top = 430
+  Width = 320
+  BorderStyle = bsNone
+  Caption = '2 Выбор семян'
+  ClientHeight = 240
+  ClientWidth = 320
+  DesignTimePPI = 120
+  ShowInTaskBar = stAlways
+  LCLVersion = '3.2.0.0'
+  WindowState = wsFullScreen
+  object Image20: TImage
+    Left = 16
+    Height = 1104
+    Top = 0
+    Width = 1984
+    Enabled = False
+    ImageIndex = 1
+    ImageWidth = 1920
+    Images = Form1.fon
+  end
+  object Image1: TImage
+    Left = 56
+    Height = 64
+    Top = 40
+    Width = 70
+    ImageWidth = 700
+    Images = Form1.Base
+    OnClick = Image1Click
+  end
+  object Image2: TImage
+    Left = 304
+    Height = 82
+    Top = 310
+    Width = 56
+    ImageIndex = 5
+    ImageWidth = 800
+    Images = Form4.Semen
+  end
+  object Image3: TImage
+    Left = 376
+    Height = 64
+    Top = 256
+    Width = 64
+    ImageIndex = 18
+    ImageWidth = 450
+    Images = Form1.Base
+  end
+  object Image4: TImage
+    Left = 664
+    Height = 88
+    Top = 312
+    Width = 32
+    ImageIndex = 6
+    ImageWidth = 800
+    Images = Form4.Semen
+  end
+  object Image5: TImage
+    Left = 736
+    Height = 64
+    Top = 256
+    Width = 64
+    ImageIndex = 18
+    ImageWidth = 450
+    Images = Form1.Base
+  end
+  object Image6: TImage
+    Left = 1120
+    Height = 64
+    Top = 336
+    Width = 80
+    ImageIndex = 7
+    ImageWidth = 800
+    Images = Form4.Semen
+  end
+  object Image7: TImage
+    Left = 1200
+    Height = 64
+    Top = 256
+    Width = 62
+    ImageIndex = 18
+    ImageWidth = 450
+    Images = Form1.Base
+  end
+  object Image8: TImage
+    Left = 1464
+    Height = 98
+    Top = 310
+    Width = 40
+    ImageIndex = 8
+    ImageWidth = 800
+    Images = Form4.Semen
+  end
+  object Image9: TImage
+    Left = 1536
+    Height = 64
+    Top = 248
+    Width = 64
+    ImageIndex = 18
+    ImageWidth = 450
+    Images = Form1.Base
+  end
+  object Image10: TImage
+    Left = 304
+    Height = 64
+    Top = 680
+    Width = 70
+    ImageIndex = 9
+    ImageWidth = 800
+    Images = Form4.Semen
+  end
+  object Image11: TImage
+    Left = 384
+    Height = 64
+    Top = 592
+    Width = 62
+    ImageIndex = 18
+    ImageWidth = 450
+    Images = Form1.Base
+  end
+  object Image12: TImage
+    Left = 664
+    Height = 80
+    Top = 672
+    Width = 56
+    ImageIndex = 10
+    ImageWidth = 800
+    Images = Form4.Semen
+  end
+  object Image13: TImage
+    Left = 728
+    Height = 66
+    Top = 590
+    Width = 62
+    ImageIndex = 18
+    ImageWidth = 450
+    Images = Form1.Base
+  end
+  object Image14: TImage
+    Left = 1138
+    Height = 90
+    Top = 680
+    Width = 62
+    ImageIndex = 11
+    ImageWidth = 800
+    Images = Form4.Semen
+  end
+  object Image15: TImage
+    Left = 1208
+    Height = 64
+    Top = 600
+    Width = 64
+    ImageIndex = 18
+    ImageWidth = 450
+    Images = Form1.Base
+  end
+  object Image16: TImage
+    Left = 1480
+    Height = 112
+    Top = 648
+    Width = 40
+    ImageIndex = 12
+    ImageWidth = 800
+    Images = Form4.Semen
+  end
+  object Image17: TImage
+    Left = 1536
+    Height = 64
+    Top = 584
+    Width = 64
+    ImageIndex = 18
+    ImageWidth = 450
+    Images = Form1.Base
+  end
+  object Image18: TImage
+    Left = 432
+    Height = 82
+    Top = 840
+    Width = 512
+    ImageIndex = 10
+    Images = Form1.Base
+    OnClick = Image18Click
+  end
+  object Image19: TImage
+    Left = 968
+    Height = 80
+    Top = 840
+    Width = 512
+    ImageIndex = 19
+    Images = Form1.Base
+  end
+  object Label2: TLabel
+    Left = 568
+    Height = 48
+    Top = 856
+    Width = 248
+    AutoSize = False
+    Caption = 'Семена цветов'
+    Color = clNone
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clTeal
+    Font.Height = -33
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label2Click
+  end
+  object Label3: TLabel
+    Left = 1088
+    Height = 48
+    Top = 856
+    Width = 264
+    AutoSize = False
+    Caption = 'Семена овощей'
+    Color = clNone
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = 11579392
+    Font.Height = -33
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentColor = False
+    ParentFont = False
+  end
+end

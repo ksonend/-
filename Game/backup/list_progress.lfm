@@ -1,0 +1,89 @@
+object Form9: TForm9
+  Left = 1516
+  Height = 240
+  Top = 542
+  Width = 320
+  BorderStyle = bsNone
+  Caption = 'Прогресс игры'
+  ClientHeight = 240
+  ClientWidth = 320
+  DesignTimePPI = 120
+  ShowInTaskBar = stNever
+  LCLVersion = '3.2.0.0'
+  WindowState = wsFullScreen
+  object Image20: TImage
+    Left = 0
+    Height = 1104
+    Top = 0
+    Width = 1984
+    Enabled = False
+    ImageIndex = 4
+    ImageWidth = 1920
+    Images = Form1.fon
+  end
+  object Image1: TImage
+    Left = 1376
+    Height = 104
+    Top = 288
+    Width = 113
+    Enabled = False
+    ImageIndex = 2
+    ImageWidth = 1000
+    Images = Form3.Sad
+  end
+  object Image2: TImage
+    Left = 384
+    Height = 72
+    Top = 304
+    Width = 1000
+    Enabled = False
+    ImageWidth = 1000
+    Images = Form3.Urovni
+  end
+  object Image3: TImage
+    Left = 984
+    Height = 360
+    Top = 480
+    Width = 705
+    Enabled = False
+    ImageIndex = 6
+    ImageWidth = 1200
+    Images = Form3.Sad
+  end
+  object Label1: TLabel
+    Left = 576
+    Height = 20
+    Top = 544
+    Width = 44
+    Caption = 'Label1'
+  end
+  object Image4: TImage
+    Left = 176
+    Height = 273
+    Top = 496
+    Width = 376
+  end
+  object Label2: TLabel
+    Left = 576
+    Height = 20
+    Top = 616
+    Width = 44
+    Caption = 'Label2'
+  end
+  object Label3: TLabel
+    Left = 576
+    Height = 20
+    Top = 680
+    Width = 44
+    Caption = 'Label3'
+  end
+  object Image5: TImage
+    Left = 56
+    Height = 65
+    Top = 40
+    Width = 72
+    ImageWidth = 700
+    Images = Form1.Base
+    OnClick = Image5Click
+  end
+end
